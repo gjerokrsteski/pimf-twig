@@ -1,0 +1,6 @@
+[submodule "pimf-framework"]
+	path = pimf-framework
+	url = https://github.com/gjerokrsteski/pimf-framework.git
+[submodule "Twig"]
+	path = Twig
+	url = https://github.com/fabpot/Twig.git
