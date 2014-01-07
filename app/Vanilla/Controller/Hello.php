@@ -10,13 +10,13 @@ class Hello extends Base
    */
   public function indexAction()
   {
-    $firstname = $this->request->fromGet()->get('firstname', array('World'));
+    $firstname = $this->request->fromGet()->get('firstname', 'World');
 
     echo new View(
           'hello.phtml',
           array(
             'blog_title'   => 'Welcome to PIMF Twig bundle',
-            'blog_content' => 'Hello '.join(' ', $firstname).'!!!',
+            'blog_content' => 'Hello '.join(' ', (array)$firstname).'!!!',
             'blog_footer'  => 'Please type at the URL "/hello/Barry" and see what happens!'
           )
     );
