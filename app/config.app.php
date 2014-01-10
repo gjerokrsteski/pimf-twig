@@ -5,8 +5,8 @@
 |--------------------------------------------------------------------------
 |
 | The PIMF configuration is responsible for returning an array
-| of configuration options. By default, we use the variable $config provided 
-| with PIMF - however, you are free to use your own storage mechanism for 
+| of configuration options. By default, we use the variable $config provided
+| with PIMF - however, you are free to use your own storage mechanism for
 | configuration arrays.
 |
 */
@@ -25,7 +25,7 @@ $config_app = array(
   |------------------------------------------------------------------------
   */
   'encoding' => 'UTF-8',
-  
+
   /*
   |------------------------------------------------------------------------
   | The default timezone of your application.
@@ -40,7 +40,7 @@ $config_app = array(
   |--------------------------------------------------------------------------
   */
   'ssl' => false,
-  
+
   /*
   |------------------------------------------------------------------------
   | Application meta
@@ -76,7 +76,7 @@ $config_app = array(
   */
   'production' => array(
 
-    'db' => null, // we do not need anny database
+    'db' => null, // we do not need any database
 
     //'db' => array(
     //  'driver' => 'sqlite',
