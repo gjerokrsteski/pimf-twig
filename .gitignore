@@ -29,3 +29,4 @@ publish
 .idea
 pimf-framework
 Twig
+*/twig_cache/*
