@@ -16,7 +16,13 @@ Installation & Configuration
 
 4. php pimf core:init
 
-5. Navigate to your application in a web browser. If all is well, you should see a pretty PIMF splash page. Get ready - there is lot more to learn!
+5. cd Twig/
+
+6. composer install
+
+7. cd ../
+
+8. Navigate to your application in a web browser. If all is well, you should see a pretty PIMF splash page. Get ready - there is lot more to learn!
              
 Alternatively you can run the PHP's built-in web server that is provided since PHP 5.4.0
 
